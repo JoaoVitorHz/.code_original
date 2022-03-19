@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Source+Serif+Pro:wght@200&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans Narrow', sans-serif;;
+}
+body{
+    overflow-x: hidden;
+}
+.banner {
+    background-image: url(../images/the-dark-city.jpg);
+    height: 100vh;
+    background-position: center;
+}
+.bannerint {
+    width: 100%;
+    max-width: 943px;
+    margin: auto;
+}
+.bannertitulo {
+    padding-top: 90px;
+    text-align: center;
+    color: #FFF;
+}
+.bannertitulo h1 {
+    font-size: 75px;
+    line-height: 55px;
+    font-family: 'Source Serif Pro', serif;;
+}
+.bannertitulo h2 {
+    font-size: 25px;
+    margin-bottom: 50px;
+    font-family: 'Source Serif Pro', serif;;
+}
+.bannertitulo p{
+    font-size: 21px;
+}
+
+.header{
+    margin-top: 40px;
+    background-color: #0187a4;
+    height: 77px;
+    width: 100vw;
+}
+.headerint{
+    width: 100%;
+    max-width: 943px;
+    height: 77px;
+    margin: auto;
+    text-align: center;
+}
+.header nav {
+    margin: auto;
+}
+.header ul {
+    list-style: none;
+}
+.header li {
+    text-decoration: none;
+    display: inline;
+    height: 77px;
+    line-height: 77px;
+}
+.headerint ul li a {
+    text-decoration: none;
+    color: #FFF;
+    padding-right: 40px;
+}
+.headerint ul li a:hover{
+    color: #bbb;
+}
+
+.textofinal {
+    margin-top: 50px;
+}
+.textofinalint {
+    width: 100%;
+    max-width: 943px;
+    margin: auto;
+    text-align: center;
+}
+.textofinalheader {
+    font-size: 25px;
+    color: #FFF;
+}
+.arrowdown{
+    margin-top: 50px;
+}
+.arrowdown img {
+    width: 60px;
+}
+
+
+/* conteudo */
+.conteudo {
+    height: 100vh;
+    background-color: #eee;
+}
+.conteudoint {
+    width: 100%;
+    max-width: 943px;
+    margin: auto;
+}
+.titulo {
+    text-align: center;
+    padding-top: 40px;
+    color: #666;
+}
+.conteudos {
+    margin-top: 43px;
+    margin-left: 14px;
+    margin-right: 14px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.textoconteudo p{
+    font-weight: bold;
+    color: #666;
+    font-size: 20px;
+}
+.seta img {
+    height: 60px;
+}
+.textoconteudo {
+    margin: 20px 0
+}
+.intem1 {
+    overflow: hidden;
+    height: 365px;
+    width: 290px;
+    background-color: #FFF;
+}
+.intem1fundo {
+    background-color: #eee;
+    width: 263px;
+    height: 200px;
+    margin: 12px;
+}
+.img img {
+    height: 100px;
+    margin: 45px;
+}
+.intem1 .texto {
+    padding-top: 40px;
+    height: 100px;
+    color: #888;
+}
+.intem1 .texto p{
+    font-size: 15px;
+}
+
+/* Nossos Serviços */
+
+.servicosint {
+    width: 100%;
+    max-width: 943px;
+    height: 100vh;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.texto1 {
+    margin-top: 20px;
+    color: #888;
+    font-size: 16px;
+    line-height: 20px;
+}
+.desenvolvimento {
+    margin-top: 20px;
+    display: flex;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.desenvolvimento .webSites {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+.desenvolvimento .e-Commerce{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    border-left: 1px solid #ccc;
+}
+.desenvolvimento a{
+    display: block;
+    background-color: #eee;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    line-height: 70px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 17px;
+    color: #666;
+}
+
+.textoComputador {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+}
+.leftside {
+    display: inline-block;
+    width: 50%;
+}
+.leftside h1{
+    color: #74bfe4;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.leftside p{
+    font-size: 15px;
+    color: #888;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.leftside .buttonRed{
+    display: inline-block;
+    background-color: #d9534f;
+    padding: 14px 9px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #FFF;
+    margin-right: 10px;
+}
+.leftside .buttonGreen {
+    display: inline-block;
+    background-color: #55ca75;
+    padding: 14px 9px;
+    border-radius: 3px;
+    text-decoration: none;    
+    color: #FFF;
+}
+.rightside{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.rightside img {
+    height: 300px;
+}
+
+.footer {
+    background-color: #69a9ca;
+}
+.footerint {
+    width: 100%;
+    max-width: 943px;
+    height: 100vh;
+    margin: auto;
+}
+.contato{
+    display: flex;
+}
+.footerint > .titulo {
+    margin-bottom: 30px;
+    color: #FFF;
+}
+.leftside .textcontato1 p, a {
+    font-size: 14px;
+    color: #FFF;
+} 
+.leftside .textcontato1 .textocontato {
+    line-height: 23px;
+}
+.textcontato1 p > m {
+    background-color: #FFF;
+    color: #69a9ca;
+    padding: 5px;
+    border-radius: 7px;
+}
+.buttonLink button{
+    text-decoration: none;
+    width: 480px;
+    height: 37px;
+    border: 1px solid #5289a4;
+    border-radius: 4px;
+    background-color: #69a9ca;
+    margin-bottom: 15px;
+    color: #FFF;
+}
+.buttonLink button:hover {
+    cursor: pointer;
+}
+.textcontato1 .numero {
+    margin: 15px 0 5px 0 ;
+    line-height: 2px;
+}
+
+.textcontato2 {
+    position: relative;
+}
+.textcontato2 p{
+    color: #FFF;
+    margin-bottom: 4px;
+}
+.textcontato2 input, textarea {
+    width: 385px;
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+}
+.textcontato2 textarea {
+    height: 168px;
+}
+.textcontato2 textarea::placeholder{
+    padding: 10px;
+    color: #AAA;
+}
+.textcontato2 input::placeholder{
+    padding: 10px;
+    color: #AAA;
+}
+.textcontato2 #enviar {
+    width: 75px;
+    height: 39px;
+    position: absolute;
+    background-color: #FFF;
+    color: #69a9ca;
+    font-size: 16px;
+    right: 0;
+}
+
+.direitos {
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+}
+.direitosint {
+    width: 100%;
+    max-width: 943px;
+    margin: auto;
+}

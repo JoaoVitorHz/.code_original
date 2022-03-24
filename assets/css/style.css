@@ -337,3 +337,17 @@ body{
     max-width: 943px;
     margin: auto;
 }
+
+[data-animacao] {
+    /* opacity: 0; */
+    transition: .7s;
+}
+
+[data-animacao="down"] {
+    transform: translate3d(0, 150px, 0);
+}
+
+[data-animacao].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
